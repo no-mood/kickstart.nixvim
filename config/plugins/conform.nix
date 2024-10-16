@@ -12,7 +12,7 @@
   plugins.conform-nvim = {
     enable = true;
     notifyOnError = false;
-    formatOnSave = ''
+    settings.format_on_save = ''
       function(bufnr)
         -- Disable "format_on_save lsp_fallback" for lanuages that don't
         -- have a well standardized coding style. You can add additional
